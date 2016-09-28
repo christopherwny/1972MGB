@@ -1,31 +1,63 @@
 
 
-<HTML>
+<!DOCTYPE html>
 
 <head>
   <title>Image Viewer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- import bootstrap -->
+  <!-- import bootstrap 
 		<link rel="stylesheet"
 			  type="text/css"
 			  href="bootstrap.css"
-		      />
-
+		      />   -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- import our own stylesheet -->
 		<link rel="stylesheet"
 			  type="text/css"
 			  href="styles.css"
 		      />			      
 
-  <!-- import jQuery -->
+  <!-- import jQuery 
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>	      
-
+-->
 </head>
 
 
 <body>
 
-<div class="container-fluid top-25">
+<!-- Navbar stuff -->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">1972 MG B</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<!--end navbar -->
+
+<div class="container">
   <div class="row">
     <div class="col-md-4 col-md-offset-4 text-center">
     <h1>MG B</h1>
@@ -66,12 +98,8 @@
 
   <div class="row">
     <div class="col-md-4 col-md-offset-4" style="text-align: center">
-    <h4 id="title"></h4]
-
-
-    ,m er
-                                  dg>
-    </div>
+    <h4 id="title"></h4>
+   </div>
   </div>
 
 
@@ -104,3 +132,4 @@
 
 
 </script>
+</html>

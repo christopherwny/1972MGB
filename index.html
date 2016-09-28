@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>1972 MG B</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- import our own stylesheet -->
+    <link rel="stylesheet"
+        type="text/css"
+        href="styles.css"
+          />            
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">1972 MG B</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+    <h1>For Sale</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1460.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+  
+
+  
+    <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1461.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+ 
+
+  
+    <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1462.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+  
+
+  
+    <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1468.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+
+  <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1470.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+
+  <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1474.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+
+  <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1476.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+
+  <div class="col-md-3">
+      <img class="crop-img" 
+    src="images/DSC_1464.JPG" 
+    alt="1972 mg b "/> 
+  </div>
+
+  </div>
+
+  
+
+
+  <div class="row">
+      <div class="col-md-12">
+        <img id="bigImage" 
+          class="large-img top-25"
+          src="images/DSC_1460.jpg" 
+          /> 
+      </div>
+    </div>
+
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <div id="about"></div>
+      <ul style="list-style-type:none">
+      <li>1972 MG B</li>
+      <li>Engine rebuilt about 2000 miles ago.</li>
+      <li>Overdrive transmission rebuilt about 2000 miles ago.</li>
+      <li>New fuel tank and sending unit.</li>
+      <li>Interior was new about six years ago.</li>
+      <li>Like new tires.</li>
+      <li>Convertible top is in good condition - no rips, no leaks.</li>
+
+      </ul>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <p>
+      The vehicle runs very well and is currently a daily driver.
+      It has some previous bodywork on the passenger side which is starting to lift.
+      This car was purchased in PA (from my father, so I am familliar with alot of the history) and driven to Florida via the Skyline drive and Blueridge parkway before a complete engine overhaul was done. The engine was reinstalled with a rebuilt overdrive transmission.
+
+  </div>  <!-- close the container div -->
+
+
+</body>
+
+<script>
+
+// when we click on the thumbnail
+    // we set the src attribute of the 
+    // bit image to be the same as the 
+    // src of the image we have clicked on
+    // ("this"). This loads the same
+    // image file into the big image
+    $(".crop-img").click(function(){
+      
+      $("#bigImage").attr('src', 
+        $(this).attr('src'));
+    });
+
+
+</script>
+</html>
