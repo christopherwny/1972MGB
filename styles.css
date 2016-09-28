@@ -1,5 +1,8 @@
 
 
+.container{
+	margin-top: 75px;
+}
 
 .crop-img{
 	width: 100%;
@@ -12,25 +15,24 @@
 
 .large-img{
 	width: 100%;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+	padding-top: 25px;
 }
 
-.top-25{
-	padding: 25px;
-}
+
 
 h1{
 font-family: serif;
 }
 
-.container{
-	padding-top: 28px;
+.aboutposition{
+	padding-top: 30px;
 }
 
 .navbar-brand{
 	padding-left: 45px;
 
 }
-#info{
-	margin-top: 50px;
+#end{
+	padding-bottom: 250px;
 }
